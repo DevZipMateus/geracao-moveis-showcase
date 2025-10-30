@@ -26,21 +26,21 @@ const Sobre = () => {
   ];
 
   return (
-    <section id="sobre" className="py-16 bg-background">
+    <section id="sobre" className="py-12 sm:py-16 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Sobre a Móveis Click
           </h2>
-          <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <div className="w-20 sm:w-24 h-1 bg-gradient-primary mx-auto mb-4 sm:mb-6"></div>
+          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
             Somos uma empresa dedicada a transformar ambientes através de móveis de qualidade. 
             Nossa missão é inovar a forma de comprar, oferecendo uma experiência única e 
             produtos que combinam funcionalidade, beleza e durabilidade.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-12 sm:mb-16">
           {features.map((feature, index) => {
             const IconComponent = feature.icon;
             return (

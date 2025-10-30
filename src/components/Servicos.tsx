@@ -43,21 +43,21 @@ const Servicos = () => {
   ];
 
   return (
-    <section id="servicos" className="py-16 bg-muted/30">
+    <section id="servicos" className="py-12 sm:py-16 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Nossos Serviços
           </h2>
-          <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <div className="w-20 sm:w-24 h-1 bg-gradient-primary mx-auto mb-4 sm:mb-6"></div>
+          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
             Oferecemos uma ampla variedade de móveis para todos os ambientes da sua casa. 
             Desde peças clássicas até designs modernos, temos tudo que você precisa 
             para criar ambientes únicos e funcionais.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12">
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
@@ -98,15 +98,15 @@ const Servicos = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-primary rounded-2xl p-8 lg:p-12 text-center text-white shadow-strong">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+        <div className="bg-gradient-primary rounded-2xl p-6 sm:p-8 lg:p-12 text-center text-white shadow-strong">
+          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4">
             Pronto para transformar sua casa?
           </h3>
-          <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-white/90 mb-4 sm:mb-6 max-w-2xl mx-auto px-2">
             Entre em contato conosco e descubra como podemos ajudar a criar 
             o ambiente perfeito para você e sua família.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button
               size="lg"
               className="bg-white/20 text-white border-white/40 hover:bg-white hover:text-primary shadow-medium backdrop-blur-sm"

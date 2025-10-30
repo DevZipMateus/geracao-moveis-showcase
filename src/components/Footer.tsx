@@ -6,8 +6,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 py-8 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
@@ -119,11 +119,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/80">
+        <div className="border-t border-primary-foreground/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
+          <p className="text-sm sm:text-base text-primary-foreground/80">
             © {currentYear} Móveis Click. Todos os direitos reservados.
           </p>
-          <p className="text-sm text-primary-foreground/60 mt-2">
+          <p className="text-xs sm:text-sm text-primary-foreground/60 mt-2">
             CNPJ: 53.201.394/0001-02
           </p>
         </div>

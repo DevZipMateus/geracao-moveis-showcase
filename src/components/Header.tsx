@@ -42,15 +42,15 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2 sm:space-x-3">
             <img 
               src={logoHeader} 
               alt="Móveis Click - Compre no conforto do seu lar" 
-              className="h-12 w-auto"
+              className="h-10 sm:h-12 w-auto"
             />
             <div>
-              <h2 className="text-xl font-bold text-primary">Móveis Click</h2>
-              <p className="text-xs text-muted-foreground">Compre no conforto do seu lar!</p>
+              <h2 className="text-lg sm:text-xl font-bold text-primary">Móveis Click</h2>
+              <p className="text-xs text-muted-foreground hidden sm:block">Compre no conforto do seu lar!</p>
             </div>
           </div>
 

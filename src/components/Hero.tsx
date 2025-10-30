@@ -34,6 +34,9 @@ const Hero = () => {
                 alt="Móveis Click - Compre no conforto do seu lar" 
                 className="h-56 lg:h-72 w-auto mx-auto lg:mx-0"
               />
+              <h1 className="text-4xl lg:text-5xl font-display font-bold mt-4 text-foreground">
+                Móveis Click
+              </h1>
             </div>
             <h2 className="text-xl lg:text-2xl mb-6 text-muted-foreground font-light">
               Transforme sua casa em um lar dos sonhos com nossa ampla seleção de móveis de qualidade

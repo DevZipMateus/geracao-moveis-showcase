@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoHeader from "@/assets/logo-header.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,9 +44,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/610b3a93-1b90-4d25-b450-50b074d745cb.png" 
-              alt="Móveis Click Logo" 
-              className="h-10 w-auto"
+              src={logoHeader} 
+              alt="Móveis Click - Compre no conforto do seu lar" 
+              className="h-12 w-auto"
             />
             <div>
               <h2 className="text-xl font-bold text-primary">Móveis Click</h2>

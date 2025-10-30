@@ -87,24 +87,32 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 border-t border-border pt-4">
-            <div className="flex flex-col space-y-4">
-              {menuItems.map((item) => (
+          <nav className="md:hidden mt-4 pb-4 border-t border-primary/20 pt-4 animate-in slide-in-from-top duration-300">
+            <div className="flex flex-col space-y-2">
+              {menuItems.map((item, index) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+                  className="text-left text-foreground hover:text-primary hover:bg-primary/5 transition-all font-medium py-3 px-4 rounded-lg border border-transparent hover:border-primary/20 group"
+                  style={{ animationDelay: `${index * 50}ms` }}
                 >
-                  {item.label}
+                  <span className="flex items-center justify-between">
+                    <span className="group-hover:translate-x-1 transition-transform duration-200">
+                      {item.label}
+                    </span>
+                    <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-200">→</span>
+                  </span>
                 </button>
               ))}
-              <Button
-                variant="default"
-                onClick={() => scrollToSection("contato")}
-                className="bg-gradient-primary hover:bg-primary-light shadow-soft w-full mt-4"
-              >
-                Fale Conosco
-              </Button>
+              <div className="pt-2">
+                <Button
+                  variant="default"
+                  onClick={() => scrollToSection("contato")}
+                  className="bg-gradient-primary hover:bg-primary-light shadow-medium w-full text-base font-semibold py-6 rounded-lg hover:scale-[1.02] transition-transform duration-200"
+                >
+                  Fale Conosco
+                </Button>
+              </div>
             </div>
           </nav>
         )}

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle, MapPin } from "lucide-react";
+import logoMoveisClick from "@/assets/logo-moveis-click.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -27,9 +28,13 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl lg:text-7xl font-display font-black mb-6 leading-tight">
-              Móveis Click
-            </h1>
+            <div className="mb-8">
+              <img 
+                src={logoMoveisClick} 
+                alt="Móveis Click - Compre no conforto do seu lar" 
+                className="h-32 lg:h-40 w-auto mx-auto lg:mx-0"
+              />
+            </div>
             <h2 className="text-xl lg:text-2xl mb-6 text-muted-foreground font-light">
               Transforme sua casa em um lar dos sonhos com nossa ampla seleção de móveis de qualidade
             </h2>

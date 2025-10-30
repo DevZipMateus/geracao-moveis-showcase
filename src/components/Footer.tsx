@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
+import logoHeader from "@/assets/logo-header.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,7 +12,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/610b3a93-1b90-4d25-b450-50b074d745cb.png" 
+                src={logoHeader} 
                 alt="Móveis Click Logo" 
                 className="h-12 w-auto brightness-0 invert"
               />

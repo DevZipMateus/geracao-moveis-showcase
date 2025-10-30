@@ -91,7 +91,7 @@ const Hero = () => {
                 <img 
                   src={logoInovacao} 
                   alt="Móveis Click - Inovação" 
-                  className="mx-auto mb-6 h-24 w-auto"
+                  className="mx-auto mb-6 h-48 w-auto"
                 />
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Inovando a Forma de Comprar</h3>
                 <p className="text-muted-foreground mb-6">

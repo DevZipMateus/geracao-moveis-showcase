@@ -87,11 +87,6 @@ const Hero = () => {
           <div className="relative">
             <div className="bg-primary/10 backdrop-blur-sm rounded-2xl p-8 shadow-strong border-2 border-primary/20">
               <div className="text-center">
-                <img 
-                  src="/lovable-uploads/610b3a93-1b90-4d25-b450-50b074d745cb.png" 
-                  alt="Móveis Click - Logo" 
-                  className="mx-auto mb-6 h-24 w-auto"
-                />
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Inovando a Forma de Comprar</h3>
                 <p className="text-muted-foreground mb-6">
                   Qualidade, variedade e atendimento excepcional em um só lugar.

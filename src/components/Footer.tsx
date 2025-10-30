@@ -12,11 +12,11 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/610b3a93-1b90-4d25-b450-50b074d745cb.png" 
-                alt="Geração Móveis Logo" 
+                alt="Móveis Click Logo" 
                 className="h-12 w-auto brightness-0 invert"
               />
               <div>
-                <h3 className="text-xl font-bold">Geração Móveis</h3>
+                <h3 className="text-xl font-bold">Móveis Click</h3>
                 <p className="text-sm text-primary-foreground/80">Inovando a forma de comprar</p>
               </div>
             </div>
@@ -120,7 +120,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            © {currentYear} Geração Móveis. Todos os direitos reservados.
+            © {currentYear} Móveis Click. Todos os direitos reservados.
           </p>
           <p className="text-sm text-primary-foreground/60 mt-2">
             CNPJ: 53.201.394/0001-02

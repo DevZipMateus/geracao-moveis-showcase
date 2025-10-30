@@ -10,7 +10,7 @@ const WhatsAppButton = () => {
         asChild
       >
         <a 
-          href="https://wa.me/5563997576272?text=Olá! Gostaria de conhecer mais sobre os móveis da Geração Móveis."
+          href="https://wa.me/5563997576272?text=Olá! Gostaria de conhecer mais sobre os móveis da Móveis Click."
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Conversar no WhatsApp"

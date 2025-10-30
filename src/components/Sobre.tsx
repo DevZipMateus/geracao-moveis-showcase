@@ -30,7 +30,7 @@ const Sobre = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Sobre a Geração Móveis
+            Sobre a Móveis Click
           </h2>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">

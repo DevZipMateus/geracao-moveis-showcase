@@ -28,7 +28,7 @@ const Hero = () => {
           {/* Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-              Geração Móveis
+              Móveis Click
             </h1>
             <h2 className="text-xl lg:text-2xl mb-6 text-white/90 font-light">
               Transforme sua casa em um lar dos sonhos com nossa ampla seleção de móveis de qualidade
@@ -55,7 +55,7 @@ const Hero = () => {
                 className="bg-white/10 text-white border-white/60 hover:bg-accent hover:text-accent-foreground hover:border-accent shadow-medium backdrop-blur-sm"
                 asChild
               >
-                <a href="https://wa.me/5563997576272?text=Olá! Gostaria de conhecer mais sobre os móveis da Geração Móveis.">
+                <a href="https://wa.me/5563997576272?text=Olá! Gostaria de conhecer mais sobre os móveis da Móveis Click.">
                   <Phone className="mr-2 h-5 w-5" />
                   Falar no WhatsApp
                 </a>
@@ -81,7 +81,7 @@ const Hero = () => {
               <div className="text-center">
                 <img 
                   src="/lovable-uploads/610b3a93-1b90-4d25-b450-50b074d745cb.png" 
-                  alt="Geração Móveis - Logo" 
+                  alt="Móveis Click - Logo" 
                   className="mx-auto mb-6 h-24 w-auto"
                 />
                 <h3 className="text-2xl font-bold mb-4">Inovando a Forma de Comprar</h3>

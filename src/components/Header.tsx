@@ -44,11 +44,11 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <img 
               src="/lovable-uploads/610b3a93-1b90-4d25-b450-50b074d745cb.png" 
-              alt="Geração Móveis Logo" 
+              alt="Móveis Click Logo" 
               className="h-10 w-auto"
             />
             <div>
-              <h2 className="text-xl font-bold text-primary">Geração Móveis</h2>
+              <h2 className="text-xl font-bold text-primary">Móveis Click</h2>
               <p className="text-xs text-muted-foreground">Inovando a forma de comprar</p>
             </div>
           </div>

@@ -32,7 +32,7 @@ const Hero = () => {
               <img 
                 src={logoMoveisClick} 
                 alt="Móveis Click - Compre no conforto do seu lar" 
-                className="h-32 lg:h-40 w-auto mx-auto lg:mx-0"
+                className="h-56 lg:h-72 w-auto mx-auto lg:mx-0"
               />
             </div>
             <h2 className="text-xl lg:text-2xl mb-6 text-muted-foreground font-light">

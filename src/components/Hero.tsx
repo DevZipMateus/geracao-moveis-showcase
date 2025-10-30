@@ -27,8 +27,8 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl lg:text-7xl font-bebas font-bold mb-6 leading-tight tracking-wider">
-              MÓVEIS CLICK
+            <h1 className="text-5xl lg:text-7xl font-display font-black mb-6 leading-tight">
+              Móveis Click
             </h1>
             <h2 className="text-xl lg:text-2xl mb-6 text-muted-foreground font-light">
               Transforme sua casa em um lar dos sonhos com nossa ampla seleção de móveis de qualidade

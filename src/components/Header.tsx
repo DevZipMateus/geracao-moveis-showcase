@@ -49,7 +49,7 @@ const Header = () => {
             />
             <div>
               <h2 className="text-xl font-bold text-primary">Móveis Click</h2>
-              <p className="text-xs text-muted-foreground">Inovando a forma de comprar</p>
+              <p className="text-xs text-muted-foreground">compre no conforto do seu lar</p>
             </div>
           </div>
 
